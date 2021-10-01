@@ -1,0 +1,12 @@
+Reference, Value, Footprint, Datasheet, LCSC
+"U1","ADAU7002","custom:BGA-8_2x4_0.8x1.6mm",""
+"MK1","IM69D120","Sensor_Audio:Infineon_PG-LLGA-5-1","https://www.infineon.com/dgdl/Infineon-IM69D120-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e41a01a2b"
+"C2","0.1uF","Capacitor_SMD:C_0402_1005Metric","~","C1525"
+"R1","4k7","Resistor_SMD:R_0402_1005Metric","~","C25900"
+"J1","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right","~"
+"C1","100nF","Capacitor_SMD:C_0402_1005Metric","~","C1525"
+"R2","100","Resistor_SMD:R_0402_1005Metric","~","C25076"
+"R3","0","Resistor_SMD:R_0402_1005Metric","~"
+"R4","0","Resistor_SMD:R_0402_1005Metric","~"
+"J2","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right","~"
+"J3","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right","~"

@@ -1,0 +1,16 @@
+### Module positions - created on Thu Sep 30 17:17:53 2021 ###
+### Printed by Pcbnew version kicad 5.1.10
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                             PosX       PosY       Rot  Side
+C1        100nF       C_0402_1005Metric                               158.2420   -77.4700    0.0000  top
+C2        0.1uF       C_0402_1005Metric                               156.7180   -76.9620   90.0000  top
+J1        Conn_01x02  PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right   156.7180   -83.0580   90.0000  top
+J2        Conn_01x03  PinHeader_1x03_P2.54mm_Vertical_SMD_LeftPins    163.8300   -79.8830    0.0000  top
+MK1       IM69D120    Infineon_PG-LLGA-5-1                            158.4960   -79.7560    0.0000  top
+R1        4k7         R_0402_1005Metric                               159.5100   -84.9630  180.0000  top
+R2        100         R_0402_1005Metric                               155.5750   -76.9640  270.0000  top
+R3        0           R_0402_1005Metric                               156.2100   -84.9630    0.0000  top
+R4        0           R_0402_1005Metric                               156.7180   -85.4690  270.0000  top
+U1        ADAU7002    BGA-8_2x4_0.8x1.6mm                             157.9880   -74.9300   90.0000  top
+## End

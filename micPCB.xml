@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/wouter/SynologyDrive/MSA/klankentappers/micPCB-V2.0/micPCB.sch</source>
+    <date>Fri 01 Oct 2021 10:42:49 AM CEST</date>
+    <tool>Eeschema 5.1.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Infineon klank PCB</title>
+        <company>IO lab bv</company>
+        <rev>1</rev>
+        <date>2021-04-22</date>
+        <source>micPCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ADAU7002</value>
+      <footprint>custom:BGA-8_2x4_0.8x1.6mm</footprint>
+      <libsource lib="micPCB-rescue" part="ADAU7002-custom" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081731D</tstamp>
+    </comp>
+    <comp ref="MK1">
+      <value>IM69D120</value>
+      <footprint>Sensor_Audio:Infineon_PG-LLGA-5-1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D120-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e41a01a2b</datasheet>
+      <libsource lib="Sensor_Audio" part="IM69D120" description="High performance digital XENSIV MEMS microphone, -26 dBFS Sensitivity, LLGA-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60832ACD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60838268</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6083C714</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608553F2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608D1EEB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25076</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608E6240</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BDF761</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BDFDA6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6156FA6B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615701D1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Audio" part="IM69D120">
+      <aliases>
+        <alias>IM69D130</alias>
+      </aliases>
+      <description>High performance digital XENSIV MEMS microphone, -26 dBFS Sensitivity, LLGA-5</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-IM69D120-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e41a01a2b</docs>
+      <footprints>
+        <fp>Infineon*PG*LLGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">IM69D120</field>
+        <field name="Footprint">Sensor_Audio:Infineon_PG-LLGA-5-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DATA" type="output"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="CLOCK" type="input"/>
+        <pin num="4" name="SELECT" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="micPCB-rescue" part="ADAU7002-custom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADAU7002-custom</field>
+        <field name="Footprint">custom:BGA-8_2x4_0.8x1.6mm</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="PDM_DAT" type="input"/>
+        <pin num="A2" name="PDM_CLK" type="input"/>
+        <pin num="B1" name="SDATA" type="output"/>
+        <pin num="B2" name="BCLK" type="input"/>
+        <pin num="C1" name="GND" type="power_in"/>
+        <pin num="C2" name="LRCLK" type="input"/>
+        <pin num="D1" name="IOVDD" type="power_in"/>
+        <pin num="D2" name="CONFIG" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Sensor_Audio">
+      <uri>/usr/share/kicad/library/Sensor_Audio.lib</uri>
+    </library>
+    <library logical="micPCB-rescue">
+      <uri>/home/wouter/SynologyDrive/MSA/klankentappers/micPCB-V2.0/micPCB-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VDD">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="D1"/>
+      <node ref="U1" pin="D2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="MK1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="C1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="MK1" pin="5"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="3" name="/BCLK">
+      <node ref="U1" pin="B2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(MK1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="MK1" pin="1"/>
+    </net>
+    <net code="5" name="/SDATA">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="B1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="6" name="/LRCLK">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="C2"/>
+    </net>
+    <net code="7" name="/PDM_CLK">
+      <node ref="MK1" pin="3"/>
+      <node ref="U1" pin="A2"/>
+    </net>
+    <net code="8" name="/PDM_DAT">
+      <node ref="U1" pin="A1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="/LRSELECT">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="MK1" pin="4"/>
+    </net>
+  </nets>
+</export>
